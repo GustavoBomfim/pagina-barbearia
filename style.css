@@ -1,4 +1,9 @@
-
+body {
+    background: #ccc;
+}
 p {
     text-align: center;
+}
+em strong {
+    color: red;
 }
