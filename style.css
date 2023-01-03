@@ -114,8 +114,10 @@ form label, form legend {
     font-size: 18px;
     border: none;
     border-radius: 3px;
+    transition: 1s all;
     cursor: pointer;
 }
 .enviar:hover {
     background: darkorange;
+    transform: scale(1.2);
 }
