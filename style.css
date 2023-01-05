@@ -90,7 +90,9 @@ footer {
 main {
 
 }
-
+main > p {
+    background: red;
+}
 form {
     margin: 40px 0;
 }
@@ -106,7 +108,7 @@ form label, form legend {
     width: 50%;
 }
 .checkbox {
-    margin: 20px 0 ;
+    margin: 20px 0;
 }
 .enviar {
     width: 40%;
@@ -204,7 +206,7 @@ td, th {
 .itens:first-child {
     font-weight: bold;
 }
-.itens::before{
+.itens:before{
     content: "★ ";
 }
 .imagem-beneficios {
@@ -214,4 +216,15 @@ td, th {
 .video {
     width: 560px;
     margin: 2em auto;
+}
+
+img + p {
+    background: blue;
+}
+img ~ p {
+    background: yellow;
+}
+
+.principal p:not(#missao) {
+    background: orange;
 }
